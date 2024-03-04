@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.container {
+  padding: 112px 20px;
+  background: linear-gradient(157deg, #fff -19%, #ffefba 99.15%);
+  height: 100vh;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 65px;
+  margin-bottom: 64px;
+}
+
+.counter {
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.counter span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 34px;
+  }
+}
